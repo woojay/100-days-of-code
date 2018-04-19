@@ -4,3 +4,5 @@
 ### Day 0 - Konami Unicorns ###
 Lesson from Day 12 of Wes Bos' JavasScript 30. [Konami sequence](https://www.wikiwand.com/en/Konami_Code) will rain unicorns.  This was a very short lesson, so I did some React lessons w/ Tyler McGinnis' recent lessons.
 
+### Day 1 - Local Storage and react ###
+Some local storage fun and react.js"
