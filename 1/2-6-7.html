@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>First React App</title>
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src='https://unpkg.com/babel-standalone@6/babel.min.js'></script>
+</head>
+<body>
+  <div id='app'></div>
+
+  <script type='text/babel'>
+    function ActiveFriendsList(props) {
+      return (
+        <ul>
+          {props.list.map((name) => (
+            <li key={name}>
+              <span>
+                {name}
+                <button onClick={() => props.onRemoveFriend(name)}>Remove</button>
+                <button onClick={() => props.onDeactivateFriend(name)}>Deactivate</button>
+              </span>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    function InactiveFriendsList(props) {
+      return (
+        <ul>
+          {props.list.map((name) => (
+            <li key={name}>
+              <span>{name}</span>
+              <button onClick={() => props.onActivateFriend(name)}>Activate</button>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    class App extends React.Component {
+      constructor(props) {
+        super(props)
+        this.state = {
+          activeFriends: ['Jordyn', 'Mikenzi', 'Jake'],
+          inactiveFriends: [],
+          input: '',
+        }
+
+        this.handleRemoveFriend = this.handleRemoveFriend.bind(this)
+        this.updateInput = this.updateInput.bind(this)
+        this.handleAddFriend = this.handleAddFriend.bind(this)
+        this.handleActivateFriend = this.handleActivateFriend.bind(this)
+        this.handleDeactivateFriend = this.handleDeactivateFriend.bind(this)
+        this.handleClearFriends = this.handleClearFriends.bind(this)
+      }
+
+      handleAddFriend() {
+        this.setState((currentState) => {
+
+          if (this.state.input) {
+            return {
+              activeFriends: currentState.activeFriends.concat([this.state.input]),
+              input: ''
+            }
+          }
+        })
+      }
+
+      handleRemoveFriend(name) {
+        this.setState((currentState) => {
+          return {
+            activeFriends: currentState.activeFriends.filter((friend) => friend !== name),
+          }
+        })
+      }
+
+      handleActivateFriend(name) {
+        this.setState((currentState) => {
+          return {
+            inactiveFriends: currentState.inactiveFriends.filter((friend) => friend !== name),
+            activeFriends: currentState.activeFriends.concat([name]),
+          }
+        })
+      }
+
+      handleDeactivateFriend(name) {
+        this.setState((currentState) => {
+          return {
+            activeFriends: currentState.activeFriends.filter((friend) => friend !== name),
+            inactiveFriends: currentState.inactiveFriends.concat([name]),
+          }
+        })
+      }
+
+      handleClearFriends(name) {
+        this.setState((currentState) => {
+          return {
+            activeFriends: [],
+          }
+        })
+      }
+
+      updateInput(e) {
+        const value = e.target.value;
+
+          this.setState({
+            input: value,
+        });
+      }
+
+      render() {
+        return (
+          <div>
+            <input
+              type='text'
+              placeholder='new friend'
+              value={this.state.input}
+              onChange={this.updateInput}
+            />
+            <button onClick={this.handleAddFriend}>
+              Submit
+            </button>
+            <br />
+            <button onClick={this.handleClearFriends}>
+              Clear All
+            </button>
+
+            <h2>Active Friends</h2>
+
+            <ActiveFriendsList
+              list={this.state.activeFriends}
+              onRemoveFriend={this.handleRemoveFriend}
+              onDeactivateFriend={this.handleDeactivateFriend}
+            />
+
+            <h2>Inactive Friends</h2>
+
+            <InactiveFriendsList
+              list={this.state.inactiveFriends}
+              onActivateFriend={this.handleActivateFriend}
+            />
+
+          </div>
+        )
+      }
+    }
+
+    ReactDOM.render(
+      <App />,
+      document.getElementById('app')
+    )
+  </script>
+</body>
+</html>
