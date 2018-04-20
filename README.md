@@ -6,3 +6,6 @@ Lesson from Day 12 of Wes Bos' JavasScript 30. [Konami sequence](https://www.wik
 
 ### Day 1 - Local Storage and react ###
 Some local storage fun and react.js"
+
+### Day 2 - Smart Sort ###
+Smarter string sort with ability to ignore beginning articles like A/An/The
