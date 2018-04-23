@@ -8,4 +8,7 @@ Lesson from Day 12 of Wes Bos' JavasScript 30. [Konami sequence](https://www.wik
 Some local storage fun and react.js"
 
 ### Day 2 - Smart Sort ###
-Smarter string sort with ability to ignore beginning articles like A/An/The
+Smarter string sort with ability to ignore beginning articles like A/An/The.
+
+### Day 3 - String Time Add ###
+Quick routine to add hour and minute string into number and reprocess into HH:MM:SS format.
