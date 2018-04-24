@@ -12,3 +12,6 @@ Smarter string sort with ability to ignore beginning articles like A/An/The.
 
 ### Day 3 - String Time Add ###
 Quick routine to add hour and minute string into number and reprocess into HH:MM:SS format.
+
+### Day 4 - Horizontal scroll reveal ###
+Vanilla JS horizontal image slide-in, like scrollreveal.js.
