@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Shadow</title>
+</head>
+
+<body>
+
+  <div class="hero">
+    <h1 contenteditable>🔥💫WOAH!💫🔥</h1>
+    <h6>Bless you Wes Bos</h6>
+  </div>
+
+  <style>
+    html {
+      color: black;
+      font-family: sans-serif;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: black;
+    }
+
+    h1 {
+      text-shadow: 10px 10px 0 rgba(0, 0, 0, 1);
+      font-size: 100px;
+    }
+  </style>
+
+  <script>
+    function debounce(func, wait = 10, immediate = true) {
+      var timeout;
+      return function () {
+        var context = this,
+          args = arguments;
+        var later = function () {
+          timeout = null;
+          if (!immediate) func.apply(context, args);
+        };
+        var callNow = immediate && !timeout;
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+        if (callNow) func.apply(context, args);
+      };
+    }
+
+    function track(e) {
+      mouseX = e.clientX;
+      mouseY = e.clientY;
+      viewCenterX = e.view.window.outerWidth / 2;
+      viewCenterY = e.view.window.outerHeight / 2;
+
+      dirX = (mouseX - viewCenterX) / 5;
+      dirY = (mouseY - viewCenterY) / 5;
+
+      let tString = `${dirX}px ${dirY}px 10px rgba(100, 100, 100, 1)`;
+      // tString =
+      //   `${dirX}px ${dirY}px 10px rgba(100, 100, 100, 1),
+      //   ${-1*dirX}px ${dirY}px 10px rgba(170, 100, 100, 1),
+      //   ${dirX}px ${-1*dirY}px 10px rgba(100, 170, 100, 1),
+      //   ${-1*dirX}px ${-1*dirY}px 10px rgba(100, 100, 170, 1)`;
+      hero.style.textShadow = tString;
+
+      // console.log(hero.style);
+      // console.log(`W: ${viewCenterX} H: ${viewCenterY}   X: ${mouseX} Y: ${mouseY}`);
+      // console.log(`XX: ${dirX}  YY: ${dirY}`);
+    }
+
+    let mouseX = 0;
+    let mouseY = 0;
+    let viewCenterX = 0;
+    let viewCenterY = 0;
+    let dirX = 0;
+    let dirY = 0;
+
+    const hero = document.querySelector('h1');
+
+    window.addEventListener('mousemove', debounce(track));
+  </script>
+</body>
+
+</html>

@@ -15,3 +15,6 @@ Quick routine to add hour and minute string into number and reprocess into HH:MM
 
 ### Day 4 - Horizontal scroll reveal ###
 Vanilla JS horizontal image slide-in, like scrollreveal.js.
+
+### Day 5 - Mouse tracking shadow ###
+Mouse following shadow
