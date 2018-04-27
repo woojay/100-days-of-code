@@ -27,3 +27,8 @@ Mouse following shadow
 ### Day 6 - Web Cam things
 
 Basic Web Cam w/ Snapshots, RGB split, Greenscreen effects
+
+
+### Day 7 - Voice Recognition
+
+Browser voice recognition w/ process triggering options
