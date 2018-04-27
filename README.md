@@ -32,3 +32,7 @@ Basic Web Cam w/ Snapshots, RGB split, Greenscreen effects
 ### Day 7 - Voice Recognition
 
 Browser voice recognition w/ process triggering options
+
+### Day 8 - Pho, a react native project
+
+Delicous react native app coming your way
