@@ -36,3 +36,15 @@ Browser voice recognition w/ process triggering options
 ### Day 8 - Pho, a react native project
 
 Delicous react native app coming your way
+
+### Day 9 - MERN stack from Brad Traversy ###
+
+Some backend work on MERN stack API
+
+### Day 10 - MERN stack from Brad Traversy ###
+
+Starting to work on React components for Front-end
+
+### Day 11 - Javascript Event Bubbling ###
+
+JS Event bubbling lesson
