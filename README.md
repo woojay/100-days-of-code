@@ -48,3 +48,6 @@ Starting to work on React components for Front-end
 ### Day 11 - Javascript Event Bubbling ###
 
 JS Event bubbling lesson
+
+### Day 12 - JS Browser Compass w/ GPS data ###
+Reading GPS data in browser, and some Angular review
