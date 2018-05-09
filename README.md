@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 15 - A Sticky Navbar w/ JS ###
+
+W/ a  bit of transition effect
+
 ### Day 14 - Final project of MongoDB for Node Devs Course ###
 
 A full CRUD MongoDB Backend. Mostly functional.
