@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 16 - Numpy basics for ML ###
+
+Basic numpy short cuts and syntax
+
 ### Day 15 - A Sticky Navbar w/ JS ###
 
 W/ a  bit of transition effect
