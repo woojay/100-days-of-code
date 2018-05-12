@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 17 - Numpy and Pandas Basics ###
+
+Dataloading and manupulation w/ Numpy and Pandas
+
 ### Day 16 - Numpy basics for ML ###
 
 Basic numpy short cuts and syntax
