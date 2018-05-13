@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 18 - Pandas and Matplotlib ###
+
+Basics on PY libs.  Travel day.
+
 ### Day 17 - Numpy and Pandas Basics ###
 
 Dataloading and manupulation w/ Numpy and Pandas
