@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 19 - Follow-along Navbar ###
+
+Follow-along navbar pulldown w/ transitions
+
 ### Day 18 - Pandas and Matplotlib ###
 
 Basics on PY libs.  Travel day.
