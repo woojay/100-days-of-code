@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 20 - Click and Drag Slider ###
+
+Click and drag slider from Day 27 of #Javascript30 by @wesbos and some MERN stack
+
 ### Day 19 - Follow-along Navbar ###
 
 Follow-along navbar pulldown w/ transitions
