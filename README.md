@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 21 - Variable Speed HTML Video Playback ###
+
+And Day 1 of WeAreDevelopers conference in Vienna, AT
+
 ### Day 20 - Click and Drag Slider ###
 
 Click and drag slider from Day 27 of #Javascript30 by @wesbos and some MERN stack
