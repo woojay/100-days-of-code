@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 23 - JS Whack-a-mole Game ###
+
+Last day of @wesbos' #Javascript30.  Whack-a-mole game w/ JS
+
 ### Day 22 - On-screen HTML Timer w/ short cuts ###
 
 HTML Timer w/ short-cut buttons.  Day 2 of WeAreDevs in Wien, AT
