@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 24 - More MERN stack ###
+
+Login view functionality with React components
+
 ### Day 23 - JS Whack-a-mole Game ###
 
 Last day of @wesbos' #Javascript30.  Whack-a-mole game w/ JS
