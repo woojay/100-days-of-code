@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 2 - More MERN stack ###
+
+Auth guard, login and logout, selective navbar
+
 ### Day 25 - More MERN stack ###
 
 More Login view functionality
