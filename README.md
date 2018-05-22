@@ -1,6 +1,10 @@
 # My 100 Days of Code
 
-### Day 2 - More MERN stack ###
+### Day 27 - More MERN stack ###
+
+Reuseable form components, default routing, loader graphics, private routes
+
+### Day 26 - More MERN stack ###
 
 Auth guard, login and logout, selective navbar
 
