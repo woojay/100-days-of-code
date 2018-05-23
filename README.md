@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 28 - More MERN stack ###
+
+Profile form page and submission complete w/ backend connection
+
 ### Day 27 - More MERN stack ###
 
 Reuseable form components, default routing, loader graphics, private routes
