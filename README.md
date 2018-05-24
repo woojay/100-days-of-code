@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 29 - More MERN stack ###
+
+Done w/ credentials and education view.  Working on User Profiles view.
+
 ### Day 28 - More MERN stack ###
 
 Profile form page and submission complete w/ backend connection
