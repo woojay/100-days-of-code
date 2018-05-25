@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 30 - Switch to Python ###
+
+Gear shifting to Python and studying OpenStack.  Refreshers from TalkPython.
+
 ### Day 29 - More MERN stack ###
 
 Done w/ credentials and education view.  Working on User Profiles view.
