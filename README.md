@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 31 - Simple Python IO ###
+
+Super basic python io and datetime stuff.
+
 ### Day 30 - Switch to Python ###
 
 Gear shifting to Python and studying OpenStack.  Refreshers from TalkPython.
