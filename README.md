@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 32 - Python Journal Tracker ###
+
+Simple persistent python journal manager
+
 ### Day 31 - Simple Python IO ###
 
 Super basic python io and datetime stuff.
