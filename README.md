@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 33 - Python Weather Scraper ###
+
+Weather fetch/scraper from wunderground
+
 ### Day 32 - Python Journal Tracker ###
 
 Simple persistent python journal manager
