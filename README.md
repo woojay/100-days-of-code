@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 34 - More Python Review ###
+
+LOL Cat API binary download and cross-platform open
+
 ### Day 33 - Python Weather Scraper ###
 
 Weather fetch/scraper from wunderground
