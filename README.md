@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 36 - Python text search App w/ Generators ###
+
+Recursive text search app w/ python generators
+
 ### Day 35 - More Python Review ###
 
 Text adventure game in Python class review
