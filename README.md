@@ -1,5 +1,13 @@
 # My 100 Days of Code
 
+### Day 39 - Python Scikit-Learn ###
+
+Linear & Logistic Regression, Support Vector, and K-nearest neighbor
+
+### Day 38 - Python Movie API App ###
+
+Python API interface for a movie database
+
 ### Day 37 - Python real-estate CSV data analyzer ###
 
 With Generator expressions and List comprehensions
