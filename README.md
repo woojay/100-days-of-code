@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 40 - Python Scikit-Learn ###
+
+Naive Bayes, Decision tree, and K-means clustering
+
 ### Day 39 - Python Scikit-Learn ###
 
 Linear & Logistic Regression, Support Vector, and K-nearest neighbor
