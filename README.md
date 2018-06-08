@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+## Day 41 - NLP with NaturalNode JS library
+
+Tokens, NGrams, Stemmers, Inflectors, and Taggers
+
 ### Day 40 - Python Scikit-Learn ###
 
 Naive Bayes, Decision tree, and K-means clustering
