@@ -1,6 +1,10 @@
 # My 100 Days of Code
 
-## Day 41 - NLP with NaturalNode JS library
+### Day 42 - NLP w/ natural.js ###
+
+Word distance, Naive Bayes and Logistic Regression classifier
+
+### Day 41 - NLP with NaturalNode JS library ###
 
 Tokens, NGrams, Stemmers, Inflectors, and Taggers
 
