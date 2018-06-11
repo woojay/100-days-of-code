@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 43 - NLP w/ natural.js ###
+
+TFIDF, Tries, Wordnet spell check, and Metaphone encoding
+
 ### Day 42 - NLP w/ natural.js ###
 
 Word distance, Naive Bayes and Logistic Regression classifier
