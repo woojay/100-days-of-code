@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 44 - K8s, Docker, and Openstack ###
+
+Holy cow.
+
 ### Day 43 - NLP w/ natural.js ###
 
 TFIDF, Tries, Wordnet spell check, and Metaphone encoding
