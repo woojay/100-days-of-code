@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 45 - Python artificial neural network - WIP ###
+
+Beginning of ANN implmentation, WIP.
+
 ### Day 44 - K8s, Docker, and Openstack ###
 
 Holy cow.
