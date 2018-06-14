@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 46 - Conway's Game of Life in Python ###
+
+Curses and some if's
+
 ### Day 45 - Python artificial neural network - WIP ###
 
 Beginning of ANN implmentation, WIP.
