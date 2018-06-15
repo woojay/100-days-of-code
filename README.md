@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 47 - Finished Conway's Game of Life in Python ###
+
+https://github.com/woojay/game_of_life for finished version
+
 ### Day 46 - Conway's Game of Life in Python ###
 
 Curses and some if's
