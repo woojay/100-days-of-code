@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 48 - Day 1 of Ansible basics ###
+
+Ansible and YML
+
 ### Day 47 - Finished Conway's Game of Life in Python ###
 
 https://github.com/woojay/game_of_life for finished version
