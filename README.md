@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 49 - Fun w/ PySide2 ###
+
+Playing w/ demo file.  Took a while to setup
+
 ### Day 48 - Day 1 of Ansible basics ###
 
 Ansible and YML
