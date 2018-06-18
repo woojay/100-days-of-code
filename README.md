@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 50 - More Python Basics ###
+
+Truthiness, None, in, string interpolation, & guarding clauses
+
 ### Day 49 - Fun w/ PySide2 ###
 
 Playing w/ demo file.  Took a while to setup
