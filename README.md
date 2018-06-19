@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 51 - Python Dicts and class slots ###
+
+Performance tweaks w/ dictionaries and class
+
 ### Day 50 - More Python Basics ###
 
 Truthiness, None, in, string interpolation, & guarding clauses
