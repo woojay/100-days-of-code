@@ -1,5 +1,9 @@
 # My 100 Days of Code
 
+### Day 52 - Python generators and generator pipeline
+
+And some minor basics w/ slicing
+
 ### Day 51 - Python Dicts and class slots ###
 
 Performance tweaks w/ dictionaries and class
