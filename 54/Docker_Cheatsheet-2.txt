@@ -1,0 +1,5 @@
+docker container run -p  # Port Out:In
+
+# Create new virtual network for each app
+# "Batteries included, but removable"
+

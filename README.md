@@ -1,6 +1,10 @@
 # My 100 Days of Code
 
-### Day 53 - Docker cheatsheat ###
+### Day 54 - Docker cheatsheet Part 2 ###
+
+Docker network and DNS commands
+
+### Day 53 - Docker cheatsheet ###
 
 Latest docker command syntax
 
